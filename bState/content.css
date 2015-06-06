@@ -1,0 +1,85 @@
+
+/* Start Main Menu */
+#mainmenu {	font-size: .8em; }
+#mainmenu a {display: block; line-height: 20px;
+	padding: 0 0 0 15px;
+	text-decoration: none;
+	color: #666;
+	font-weight: normal;
+	font-size: 11px;
+	background: url(images/menu_row.jpg) center left no-repeat;
+	margin-left:5px;}
+#mainmenu a:hover { color: #000;}
+#mainmenu a.menuTop {padding-left: 15px; /*border-top: 1px solid #ccc; border-right: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #ccc;*/}
+#mainmenu a.menuMain {padding-left: 15px; /*border-right: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #ccc;*/ }
+#mainmenu a.menuSub {padding-left: 19px; /*background-image: url(../icons/arr.gif);background-repeat: no-repeat; background-position: left; background-color: #fff; color: #666; font-size:.9em; font-style:italic; border-right: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #ccc;*/}
+#mainmenu a.menuSub:hover {/*color: #f3ac03;*/}
+/* End Main Menu */
+
+/* Start User Menu */
+#usermenu {	font-size: .8em; }
+#usermenu a {display: block; line-height: 20px;
+	padding: 0 0 0 15px;
+	text-decoration: none;
+	color: #666;
+	font-weight: normal;
+	font-size: 11px;
+	background: url(images/menu_row.jpg) center left no-repeat;
+	margin-left:5px;}
+#usermenu a:hover {color: #000;}
+#usermenu a.menuTop {/*border-top: 1px solid #ccc;*/}
+#usermenu a.highlight {/*background-color: #fcc; color: #ff0000;*/}
+/* End User Menu */
+
+/* tables and cells */
+table {	width: 100%;}
+table td {padding: 0; border-width: 0;	vertical-align: top;}
+th {background-color: #EDEBD6; color: #fff; padding : 2px; vertical-align : middle;}
+.outer {border: 1px solid #ccc;}
+.head {background-color: #E4E2C2; color:inherit; padding: 5px; font-weight: bold;}
+.even {background-color: #E3E1C1; color:inherit; padding: 5px;}
+.odd {background-color: #EFEEDA; color:inherit; padding: 5px;}
+.foot {background-color: #E4E2C2; color:inherit; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #F4F3E8; color:inherit; padding: 5px;}
+tr.odd td {background-color: #efeeda; color:inherit; padding: 5px;}
+th { background:url(images/thback.jpg) #EDEBD6;}
+
+/* core messages */
+.errorMsg { background-color: #FFCCCC;  color:inherit; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #aaa; border-bottom: 1px solid #aaa;font-weight: bold; padding: 10px;}
+.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #aaa; border-bottom: 1px solid #aaa;font-weight: bold; padding: 10px;}
+.resultMsg { background-color : #bbb; color: #333; text-align: center; border-top: 1px solid #ccc; border-left: 1px solid #ccc; font-weight: bold; border-right: 1px solid #666; border-bottom: 1px solid #666; padding: 10px;}
+
+/* codes and quotes */
+.xoopsCode { background-color: #fff; color:inherit; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0 6px 6px 6px; max-height: 200px; overflow: auto;}
+.xoopsQuote { background-color: #fff; color:inherit; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; font-style:italic; padding: 0 6px 6px 6px;}
+
+/* articles */
+.item { margin-bottom:15px;}
+.itemHead {padding: 3px; background-color: #EDEBD6; color: #000; font-size: 1.1em; font-weight:bold;}
+.itemInfo {text-align: right; padding: 3px; background-color: #EDEBD6; color:inherit;}
+.itemTitle a { font-size:1.2em; font-weight: bold; color: #000;}
+.itemPoster {font-size: .9em; font-style:italic;}
+.itemPostDate {font-size: .9em; font-style:italic;}
+.itemStats {font-size: .9em; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 1.3em; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #EDEBD6; color:inherit; font-style:italic;}
+.itemAdminLink {font-size: .9em;}
+.itemPermaLink {font-size: .9em;}
+
+/* forums */
+.comTitle { font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: .7em; color: #639ACE; font-weight:bold; border: 1px solid #ccc; background-color: #fff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; background-color: inherit; color: #639ACE; font-weight:bold; font-size: .8em;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: .8em; font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: .8em}
+.comDateCaption {font-weight: bold; font-style: normal; font-size: .8em}
+.signature { font-size:.8em; font-style:italic;}
+

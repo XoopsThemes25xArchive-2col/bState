@@ -1,0 +1,267 @@
+@import url(layout.css);
+@import url(blocks.css);
+@import url(content.css);
+
+
+/* ------ General styles ------ */
+
+html, body {
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	line-height: 1.3em;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #333;
+	background: #edebd6 url(images/bg.jpg) top left repeat-x;
+}
+
+#xo-canvas {
+	background:#EDEBD6;
+}
+
+table {
+	width: 100%;
+}
+
+table td {
+	padding: 0;
+	border-width: 0;
+	vertical-align: top;
+}
+
+img {
+	border: 0;
+}
+
+a:link, a:visited {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #555;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: normal;
+	color: #333;
+}
+
+h1 {font-size: 1.4em;}
+h2 {font-size: 1.2em; }
+h3 {font-size: 1em;}
+h4 {font-size: 1em; }
+h5 {font-size: .9em; }
+h6 {font-size: .8em;}
+
+input, button {
+	
+}
+/* blue */
+input[type="checkbox"], input[type="radio"]{
+   background: transparent;
+   border: none;
+}
+
+/* ------ Header rules ------ */
+
+#xo-header {
+	/*clear: both;*/
+	background: url(images/header.jpg) top left repeat-x;
+	width: 908px;
+	margin: 0 auto;
+}
+
+#left {
+	background: url(images/left.jpg) top left no-repeat;
+}
+
+#right {
+	background: url(images/right.jpg) top right no-repeat;
+	height: 30px;
+	padding: 141px 0 0 0;
+}
+
+#logo {
+	padding: 0;
+	text-align: center;
+	margin: 0 auto;
+	width: 900px;
+	position: absolute;
+	top: 50px;
+}
+
+#logo a, #logo a:link, #logo a:hover {
+	font-weight: normal;
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 1px;
+	color: #edebd7;
+	text-decoration: none;
+	outline: none;
+	line-height: 36px;
+}
+
+.pill_m {
+	width: 896px;
+	text-align: center;
+	height: 30px;
+	margin: 0 auto;
+	background: url(images/menu.jpg) top left repeat-x;
+}
+
+#pillmenu {
+	float: left;
+	width: 896px;
+}
+
+#pillmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#pillmenu li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	background: url(images/menu_li.jpg) top right no-repeat;
+}
+
+#pillmenu li:hover {
+	background: url(images/menu_li_hover.jpg) top right no-repeat;
+}
+
+#pillmenu li a#active_menu-nav {
+	
+}
+
+#pillmenu li a {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	float: left;
+	display: block;
+	line-height: 24px;
+	padding: 2px 10px 2px 10px;
+	color: #EDEBD7;
+	text-decoration: none;
+}
+
+#pillmenu li a:hover {
+
+}
+
+#xo-headerlogo {
+	float: left;
+}
+
+#xo-headerbanner {
+	position:relative;
+	top:10px;
+	right:20px;
+	float: right;
+}
+
+/* ---------- Column left/right rules ---------- */
+
+#xo-canvas-rightcolumn {}
+#xo-canvas-rightcolumn a {}
+#xo-canvas-rightcolumn a:hover {}
+
+#xo-canvas-leftcolumn { width:184px;}
+#xo-canvas-leftcolumn a {}
+#xo-canvas-leftcolumn a:hover {}
+
+/* ------ Main content ------ */
+
+#xo-canvas-content {	
+	line-height: 1.3em;
+}
+
+/* lists */
+#xo-canvas-content ul {margin: 5px; padding: 2px; list-style: decimal inside; text-align: left;}
+#xo-canvas-content li {margin-left: 5px; color: #000; background-color: inherit; line-height: 1.4em; list-style: circle;}
+
+#xo-page {
+	padding: 0;
+}
+
+/* ---------- Module display rules ---------- */
+
+#xo-content {
+	padding: 15px 1%;
+}
+
+/* ---------- Redirect ------------ */
+#xo-redirect {
+	margin: 40px 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	background-color: #f7e6bd;
+	color: #222;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	border: 2px solid #DDDDFF;
+}
+/* ---------- Site close ------------ */
+#xo-siteclose-login {
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto; 	
+	border:1px solid #DDDDFF;	
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+#xo-siteclose-login h2 {
+	background-color: #f3ac03;
+	font-weight: bold;
+	font-size: 1em; 
+	color: white;
+	padding: 2px;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;	
+}
+#xo-siteclose-login form {
+	padding: 0px;
+	margin: 0px;	
+}
+#xo-siteclose-login div{
+	padding: 6px;
+}
+#xo-siteclose-login span.left {
+	float: left;
+	padding-bottom: 3px;
+}
+#xo-siteclose-login span.right {
+	float: right;
+	padding-right: 3px;
+	padding-bottom: 3px;
+}
+#xo-siteclose-login div.button {
+	text-align: right;
+	clear: both;	
+	padding-right: 0px;
+}
+/* ---------- Footer rules ---------- */
+
+#xo-footer {
+	text-align:			center;
+	font-size:			90%;
+	color:				#666;
+	margin:				0px;
+}
+
+#xo-footer a {
+	color:				#333;
+}
+
+/* ----------  mode debug  ---------- */
+
+#xo-logger-output {
+	font-size:			80%;
+}
